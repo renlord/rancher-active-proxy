@@ -19,3 +19,4 @@ services:
     - 443:443/tcp
     labels:
       io.rancher.container.pull_image: always
+      io.rancher.scheduler.affinity:host_label: rap=true
